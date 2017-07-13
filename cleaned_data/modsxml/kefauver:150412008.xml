@@ -1,11 +1,20 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">KDP_1061</identifier>
    <identifier type="filename">KDP_1061.jp2</identifier>
-   <name usage="primary" authority="naf" valueURI="http://id.loc.gov/authorities/names/n79063202">
+   <name usage="primary"
+         authority="naf"
+         valueURI="http://id.loc.gov/authorities/names/n79063202">
       <namePart>United States. Army</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -30,17 +39,20 @@
       <physicalLocation>University of Tennessee, Knoxville. Special Collections</physicalLocation>
    </location>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n79144615">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n79144615">
          <namePart>Kefauver, Estes, 1903-1963</namePart>
       </name>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n87944950">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n87944950">
          <namePart>Gore, Albert, 1907-1998</namePart>
       </name>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/no2012099463">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/no2012099463">
          <namePart>Priest, James Percy, 1900-1956</namePart>
       </name>
    </subject>
@@ -58,7 +70,8 @@
       </titleInfo>
       <identifier type="local">MPA.144</identifier>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_KDP_1061</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSource>
